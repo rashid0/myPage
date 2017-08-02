@@ -1,0 +1,421 @@
+body{
+	font-family: 'Bellefair', serif;
+	background: rgb(47,79,79)
+;
+
+}
+
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background: rgb(205,92,92);
+  color: white;
+}
+
+
+header .intro-text {
+  width:450px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+
+}
+
+
+header .intro-text h1{
+font-size: 50px;
+font-weight: bold;
+}
+
+
+header .intro-text p{
+font-size: 25px;
+
+}
+
+
+.col-md-4 img{
+	max-width: 100%;
+	height: auto;
+	border: 2px solid white;
+
+
+
+}
+
+
+/*Sidebar nav*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: 'raleway', cursive;
+}
+.sidenav p{
+	color: black;
+	font-size:35px;
+	padding-left: 50px;
+
+	font-family: 'raleway', cursive;
+
+
+
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 33px;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+
+}
+
+
+.carrot{
+padding-top: 50px;
+margin-left: 30px;
+
+
+
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.section1{
+
+
+}
+
+
+.col-md-4 img{
+
+	width: 100%;
+	height: auto;
+	margin-top: 80px;
+
+}
+
+
+.
+/*my project*/
+
+
+
+#portfolio{
+	background-color: rgb(47,79,79);
+	padding-bottom: 1200px;
+	padding-top: 100px;
+
+}
+#portfolio h1{
+  padding-top: 100px;
+
+
+}
+
+#portfolio .portfolio-item {
+  margin: 10 0 5px;
+  right: 0;
+}
+
+/*niche wala class portfolio link ko change krega,<a> ko, jaise ki image ka kitna height ho , kitna width ho*/
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 1400px;
+  margin: 10 auto;
+}
+/*the below class will change the caption, jab ham image pe mouse layenge uske baad jo bhi dikhega isse control hoga, jaise ki ager ham width me 50 % ker denge tb jo dikhega wo iske parent ka 50% ho jayega , iska paren hai portfolio link*/
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgb(0,0,0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 0.8;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color:white;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+
+/*end*/
+
+
+.section2{
+	background-color: rgb(72,61,139);
+
+
+}
+
+.section2 img{
+	max-width: 400px;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 10%;
+	padding-bottom: 100px;
+
+
+
+
+}
+.codepen{
+
+  margin-bottom: 100px;
+  margin-top: 10px;
+  
+}
+
+.codepen .img1 img {
+	width: 30%;
+  padding-top: 100px;
+  float: right;
+/*  margin-right: 0;
+  padding-right: 0;*/
+
+
+
+}
+
+.codepen .img2 img{
+  width: 60%;
+  padding-top: 100px;
+  height: auto;
+  padding-bottom: 70px;
+/*  padding-left: 0;
+  margin-left: 0;*/
+	}
+.img1,.img2{
+padding: 0;
+margin: 0;
+
+
+}
+
+
+
+.codepen .col-md-6{
+	margin: 0;
+
+
+}
+
+.codepen img{
+
+    position: relative;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.codepen img:hover{
+	transform: scale(1.2, 1.2);
+
+}
+
+
+
+/* .section2 img{
+   
+    position: relative;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.section2 img:hover{
+	transform: scale(1.2, 1.2);
+
+}
+*/
+.codepen .col-sm-6{
+  padding-bottom: 100px;
+
+}
+.codepen h1{
+
+  padding-top: 0px;
+  font-size: 70px;
+  color: white;
+ 
+}
+#portfolio h1{
+  font-size: 70px;
+}
+
+
+
+
+.extras{
+  margin-bottom: 150px;
+  background-color: rgb(205,92,92);
+  margin-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 200px;
+
+
+
+}
+
+.extras ul{
+  margin-bottom: 50px;
+
+}
+
+.extras hr{
+    width: 30%;
+    padding-bottom: 30px;
+
+
+
+}
+
+.extras h1{
+font-size: 70px;
+color: white;
+padding-bottom: 30px;
+
+
+
+}
+
+.extras li{
+  font-size: 30px;
+  color: white;
+  list-style: none;
+
+
+
+}
+
+
+
+.btn{
+color: black;
+font-size: 30px;
+
+border: 0;
+border-radius: 0;
+background-color: rgb(255,255,255);
+
+}
+
+
+.btn:hover{
+background-color: rgba(0,0,0,0.7);
+color: white;
+  }
+
+
+ .footer{
+  background-color: #F5F5F5;
+
+border: 1px solid transparent;
+ 
+
+
+
+ }
+
+ .card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+background: white;
+max-width:300px;
+color: black;
+margin:0 auto;
+margin-top: 30px;
+text-align: center;
+margin-bottom: 30px;
+
+
+
+
+
+ }
+ 
+
+
+ 
+ .title {
+    color: grey;
+    font-size: 21px;
+}
+ .card button{
+  
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+   
+}
+
+.card a{
+ 
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding:0 5px 0 5px;
+}
+
+.inner{
+  padding: 0 10px;
+
+}
+
+
+
+
+
+ /*card */

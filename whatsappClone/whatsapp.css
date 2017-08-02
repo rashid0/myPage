@@ -1,0 +1,327 @@
+html,body{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Style the left tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 660px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 660px;
+}
+
+.left{
+	 display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+
+}
+
+
+.left:hover{
+	  background-color: #ddd;
+}
+
+.scroll{
+	height: 530px;
+	overflow-y: scroll;
+    background: rgb(255,255,255);
+
+}
+
+#profile-top{
+	padding: 5px 0px;
+
+}
+
+
+.fa-user-circle{
+    padding: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:#b2b2b2;
+    
+   
+}
+.fa-envelope{
+	padding:20px; 
+	float: right;
+	text-align: center;
+    text-decoration: none;
+    color: #4c4c4c ;
+
+}
+.fa-ellipsis-v{
+	color:#b2b2b2;
+
+}
+
+div.dropdown{
+	display:inline;
+	float: right;
+	padding-top: 17px;
+	padding-right: 20px;
+
+
+}
+
+
+/*this is not a part of this */
+.btn,.btn-primary{
+
+    border:none;
+    border-radius: 100%;
+    background: none;
+}
+.btn:hover,.btn-primary:hover{
+background: none;
+border: none;
+
+
+
+}
+
+}
+.btn:active,.btn-primary:active:{
+    background: none !important;
+
+}
+.btn:focus,.btn-primary:focus{
+    background: none !important;
+    border: none;
+
+}
+
+#search{
+	background: #e5e5e5;
+	height: 40px;
+
+
+}
+
+#search input[type="text"]{
+
+	width: 98%;
+	padding: 4px;
+	margin: 4px;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding-left: 10px;
+
+
+
+}
+
+.scroll img{
+
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 100%;
+    
+
+
+}
+
+
+
+#history-1{
+    background: url('img/defaultbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+#history-2{
+    background: url('img/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+#history-3{
+    background: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.left p{
+    float:right;
+    padding-top: 20px;
+    padding-right: 40%;
+
+
+
+}
+
+.tabcontent{
+    padding-left: 0;
+    padding-right: 0;
+
+
+}
+
+.chat-1, .chat-2, .chat-3{
+    height: 93px;
+    background: #F5F5F5;
+
+
+}
+.chat-1 img, .chat-2 img, .chat-3 img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-top: 18px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+.chat-1 p, .chat-2 p, .chat-3 p{
+    float:left;
+    padding-top: 32px;
+    padding-left: 10px;
+}
+
+.chat-1 i{
+    float: right;
+    padding-top: 32px;
+    margin-right: 5px;
+
+}
+
+.dropdown-menu{
+    left: -120px;
+
+
+
+}
+.sbtn .s-el{
+    margin: 0;
+    padding: 0;
+
+
+}
+.sbtn{
+    padding-top: 18px;
+}
+
+.fa-search{
+    padding: 10px;
+    color: rgba(0,0,0,0.5);
+;
+
+
+}
+
+
+.fa-paperclip{
+    padding: 10px;
+
+
+}
+
+.chat-1 a{
+    
+        color:inherit;
+    }
+.chat-2 i{
+    float: right;
+    padding-top: 32px;
+    margin-right: 5px;
+
+}
+
+.chat-2 a{
+    
+        color:inherit;
+    }
+
+
+.chat-3 i{
+    float: right;
+    padding-top: 32px;
+    margin-right: 5px;
+
+}
+
+.chat-3 a{
+    
+        color:inherit;
+    }
+.chat-box{
+    border: 1px solid #F5F5F5;
+    margin-top: 487px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 80px;
+    background: #F5F5F5;
+    position: relative;
+
+
+
+}
+
+
+
+
+.chat-box input[type="text"]{
+    width: 85%;
+    overflow: hidden;
+    height: 65px;
+    position: absolute;
+    left: 60px;
+    top:5px;
+    border: 1px solid white;
+    border-radius: 2%;
+    padding-left: 30px;
+
+
+
+
+}
+.fa-smile-o{
+    padding-top:22px;
+    padding-left: 15px;
+    color: rgba(0,0,0,0.4);
+
+
+}
+.fa-microphone{
+    color: rgba(0,0,0,0.4);
+    float: right;
+    padding-top: 22px;
+    padding-right: 30px;
+
+}
